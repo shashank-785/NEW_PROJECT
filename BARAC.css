@@ -1,4 +1,6 @@
 body{
+     margin: 0;
+     box-sizing: border-box;
      min-height: 80vh;
    text-align: center;
    background-image: url("FC.png");
@@ -31,6 +33,10 @@ nav{
     gap: 20px;
   
 }
+header button,
+.yellow{
+    white-space: normal;
+}
 .welcome{
     margin-top: 100px;
     color: yellow;
@@ -38,4 +44,41 @@ nav{
 button:hover{
     color:yellow;
     cursor:pointer;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: center top;
+        min-height: 100vh;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    header button,
+    nav button {
+        width: 145px;
+        margin-top: 0;
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+
+    .welcome {
+        margin-top: 45px;
+        padding: 0 10px;
+        font-size: 28px;
+    }
+
+    h1 {
+        padding: 0 10px;
+    }
+
+    h2, h3, p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

@@ -24,6 +24,12 @@ margin-top:100px;
    
 
 }
+video {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    box-sizing: border-box;
+}
 button:hover{
     color:rgb(37, 37, 37);
     cursor:pointer;
@@ -49,4 +55,29 @@ button:hover{
 }
 .nav{
     gap:50px;
+}
+
+@media (max-width: 600px) {
+    video {
+        margin-top: 35px;
+    }
+
+    h1 {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    nav button,
+    button.back,
+    button.next {
+        margin-top: 0;
+    }
 }

@@ -31,3 +31,29 @@ button:hover{
     cursor:pointer;
 
 }
+
+@media (max-width: 600px) {
+    body {
+        background-position: center top;
+    }
+
+    h1 {
+        padding-top: 20px;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+}

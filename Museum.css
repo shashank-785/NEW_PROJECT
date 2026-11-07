@@ -19,6 +19,38 @@ button:hover{
 h1{
     color:yellow;
 }
+video {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        padding: 15px 10px;
+        font-size: 28px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    nav button,
+    button.back,
+    button.next {
+        margin-top: 0;
+    }
+}
 
 .back{    background-color:yellow;
     color: rgb(234, 7, 7);
