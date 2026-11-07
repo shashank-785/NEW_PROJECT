@@ -1,0 +1,52 @@
+body{
+    background-image: url("../images/history.png");
+    color:yellow;
+    text-align:center;
+}
+button{
+    background-color: rgb(0, 77, 152);
+    color: whitesmoke;
+    margin-top:100px ;
+    border-radius: 10px;
+    padding: 12px 20px;
+    gap:10px;
+
+
+}
+video{
+display:flex;
+justify-content: center;
+align-items:center;
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+
+   
+
+}
+button:hover{
+    color:rgb(37, 37, 37);
+    cursor:pointer;
+}
+.back{    background-color:yellow;
+    color: rgb(234, 7, 7);
+    margin-top:100px ;
+    border-radius: 10px;
+    padding: 12px 20px;
+    justify-content: start;
+    
+    
+       
+
+}
+.next{
+    background-color:red;
+    color: blue;
+    margin-top:100px ;
+    border-radius: 10px;
+    padding: 12px 20px;
+    justify-content: right;
+}
+.nav{
+    gap:50px;
+}
